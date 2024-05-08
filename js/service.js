@@ -2,7 +2,7 @@ const service = {};
 
 service.getMoments = async () => {
   try {
-    const response = await fetch("https:/onedayviborg.webmcdm.dk/api/moments");
+    const response = await fetch("https://onedayviborg.webmcdm.dk/api/moments");
     const moments = await response.json();
     return moments;
   } catch (error) {
@@ -12,7 +12,7 @@ service.getMoments = async () => {
 
 service.getCarousels = async () => {
   try {
-    const response = await fetch("https:/onedayviborg.webmcdm.dk/api/moments");
+    const response = await fetch("https://onedayviborg.webmcdm.dk/api/moments");
     const moments = await response.json();
     return moments;
   } catch (error) {
