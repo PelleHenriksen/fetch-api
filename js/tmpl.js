@@ -14,8 +14,10 @@ function renderCarousel(item, index) {
     alt=""
   /> <div class="container">
   <div class="bottom-right">
-  <p>${item.profile.name}</p>
-    <p>${item.title}</p>
+  <p class="profil">${item.profile.name}</p>
+    <p class="title">${item.title}</p>
+    <p class="time">${item.time}</p>
+
   </div>
 </div>
 </div>
