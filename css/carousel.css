@@ -7,3 +7,16 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+.carousel-container {
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+}

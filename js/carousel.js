@@ -4,10 +4,10 @@ const app = {};
 app.init = async () => {
   let carousels = await service.getCarousels();
   const carouselsContainer = document.querySelector(".carousel-inner");
-  carousels.forEach((carousels) => {
+  carousels.forEach((carousels, index) => {
     carouselsContainer.insertAdjacentHTML(
       "beforeend",
-      renderCarousel(carousels)
+      renderCarousel(carousels, index)
     );
   });
 };

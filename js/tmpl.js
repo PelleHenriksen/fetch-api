@@ -5,15 +5,19 @@ function renderMoment(item) {
   `;
 }
 
-function renderCarousel(item) {
+function renderCarousel(item, index) {
   return `
-  
-<div class="carousel-item">
+    <div class="carousel-item ${index === 0 ? "active" : ""}">
   <img
     src="${item.picture}"
     class="d-block w-100"
     alt=""
-  />
+  /> <div class="container">
+  <div class="bottom-right">
+  <p>${item.profile.name}</p>
+    <p>${item.title}</p>
+  </div>
+</div>
 </div>
   </div>
   `;
