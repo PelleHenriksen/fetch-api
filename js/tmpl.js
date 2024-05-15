@@ -17,9 +17,9 @@ function renderCarousel(item, index) {
   <p class="profil">${item.profile.name}</p>
     <p class="title">${item.title}</p>
     <p class="time">${item.time}</p>
-    <a href="https://onedayviborg.dk/moments/${item.time}-${
-    item.urlName
-  }html"  target="_blank">Se Alle Billeder</a>
+    <a href="https://kasperkopke.github.io/OneDayViborgVanillas/enkeltside?_id=${
+      item._id
+    }"  target="_blank">Se Alle Billeder</a>
 
   </div>
 </div>
