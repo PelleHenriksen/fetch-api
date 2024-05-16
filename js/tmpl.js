@@ -19,7 +19,11 @@ function renderCarousel(item, index) {
     <p class="time">${item.time}</p>
     <a href="https://kasperkopke.github.io/OneDayViborgVanillas/enkeltside?_id=${
       item._id
-    }"  target="_blank">Se Alle Billeder</a>
+    }"  target="_blank">Se Alle Billeder</a> <br>
+    <div style="display: flex ;justify-content: end; align-items: end;"><img src="assets/LOGO/MCDM_Logo_Color_Master.svg" alt="" style="height: 40px; width:auto; 
+    " /> </div>
+    
+
 
   </div>
 </div>
